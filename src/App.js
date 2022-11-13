@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter,Route,Router,Routes} from 'react-router-dom';
+import './index.css';
 import './App.css';
+import Meeshopage from './Pages/Meeshopage';
+import Sellonline from './Pages/Sellonline';
+import Howwork from './Pages/Howwork';
+import Pricecom from './Pages/Pricecom';
+import Shipreturn from './Pages/Shipreturn';
+import Growbuss from './Pages/Growbuss';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+         
+   
+   <Routes>
+    <Route exact path="/" element={<Meeshopage/>}/>
+    <Route    path="/sellonline" element={<Sellonline />}/>
+    <Route    path="/howtowork" element={<Howwork/>}/>
+    <Route path="/price" element={<Pricecom/>}/>
+    <Route  path="/shipreturn" element={<Shipreturn/>}/>
+    <Route  path="/growbusiness" element={<Growbuss/>}/>
+    {/* </Route> */}
+    <Route path="*" element={<div>error page found</div>}/>
+    </Routes>
+  
+
+        
+    </>
   );
 }
 
