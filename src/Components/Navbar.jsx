@@ -1,32 +1,51 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
- 
-const Navbar =()=>{
-    return(
-        <>
-        
-<div className='navbar bg-info sticky-top ' >
- 
-   <div className=' mx-5'><NavLink  exact to="/"  >meesho</NavLink></div>
-   {/* <div className='float-end mx-5'>helaskf</div> */}
-   <div className='leftnav'>
-   <NavLink exact to="/sellonline" >Sell online</NavLink>
-    <NavLink  exact to="/howtowork">How its work</NavLink>
-    <NavLink exact to="/price">Pricing & communication</NavLink>
-    <NavLink exact to="/shipreturn">Shipping & return</NavLink>
-    <NavLink exact to="/growbusiness">Grow & business</NavLink>
-      <div className='d-flex'>
-   <div class="btn1 "><button id="btn2">start selling</button></div>
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { BsBarChartFill, BsXLg } from "react-icons/bs";
+import Navbar2 from "../Components/Navbar2";
+import Navbar3 from "./Navbar3";
 
-<div class="btn1 "><button id="btn1">login</button></div>
-</div>
-   </div>
-  
+const Navbar = () => {
+  const [show, setshow] = useState(false);
+
+  const showbtn = () => {
+    setshow(!show);
+  };
+
+  return (
+    <>
+      <div className="bg-white d-flex justify-content-center align-items-center align-content-center startbtn1">
+        <div className=" ">
+          <NavLink exact to="/" className="meeshonav">
+            meesho
+          </NavLink>
+        </div>
+        <Navbar3/>
+   
+        {show ? <Navbar2/>: null}
     
-</div>
+        <div className="d-flex justify-content-start align-items-center align-content-center justify-content-start">
+          <div className="  d-md-none d-sm-block " >
+            <button  className="btn startbtn">start selling</button>
+            </div>
 
-        </>
-    )
-}
+          {show ? (
+            <div className=" d-md-none d-sm-block ">
+              <button className="btn mx-3 " onClick={showbtn} >
+              <BsXLg style={{color:"#f43397"}}/>
+              </button>
+            </div>
+          ) : (
+            <div className=" d-md-none d-sm-block">
+              <button className="btn  mx-3" onClick={showbtn}>
+              <BsBarChartFill style={{color:"#f43397"}}/>
+               
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Navbar;
