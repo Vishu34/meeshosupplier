@@ -2,7 +2,8 @@ const Imagecontent=(props)=>{
 // const {head ,content1,content2,content3,imgsrc} =mydate;
 return(
     <>
-    <div className="container-fluid egcolor">
+    <div className="container-fluid egcolor ">
+    <div className="container">
     <div className="row ">
             <div className="col-md-7 ">
                 <div className="aside ">{props.head}
@@ -31,7 +32,7 @@ return(
          </div>
         </div>
     </div>
-    
+    </div>
         </>
 )
 }

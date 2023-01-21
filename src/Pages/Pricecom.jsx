@@ -47,7 +47,7 @@ const Pricecom = () => {
         </div>
       </div> */}
 
-
+<div className="container">
       <div class="row my-3">
         <div className="col-md-4">
           <div class="noreg">
@@ -92,10 +92,14 @@ const Pricecom = () => {
           </div>
         </div>
       </div>
+ </div>
 
-      <div class="paycycle">
-        <div class="paycycle1">
-          <div class="paycontent">Payment Cycle</div>
+
+    <div className="container-fluid egcolor">
+      <div class="container">
+         <div className="row my-3">
+         <div class=" col-md-6 my-3">
+          <div class="paycontent ">Payment Cycle</div>
           <div class="paycontent1">
             The settlement amount is securely deposited directly into your bank
             account following a 7-day payment cycle from order delivery,
@@ -103,19 +107,26 @@ const Pricecom = () => {
             balance and the upcoming payments on the Meesho Supplier Panel.
           </div>
         </div>
-        <div class="pcycle">
-          <img src="https://supplier.meesho.com/images/icon-17.svg" alt="img" />
+        <div class=" my-3 col-md-3">
+            <div className="pcycle">
+            <img src="https://supplier.meesho.com/images/icon-17.svg" alt="img" />
           <div class="pcontent">7-day payment cycle</div>
         </div>
-        <div class="pcycle">
-          <img src="https://supplier.meesho.com/images/icon-18.svg" alt="img" />
+           </div>
+  
+        <div class=" my-3 col-md-3">
+           <div className="pcycle">
+             <img src="https://supplier.meesho.com/images/icon-18.svg" alt="img" />
           <div class="pcontent">Secured payment in your account</div>
         </div>
-      </div>
+           </div>
+         </div>
 
-      <div class="quickfact">
+      </div></div>
+
+      <div class=" container">
         <div class="works">quick facts on shipping & delivery</div>
-        <div class="shipping">
+        <div class="shipping my-3">
           <div class="shipping1">
             <div class="shipping2">Shipping</div>
             <ul>
@@ -160,6 +171,7 @@ const Pricecom = () => {
             </ul>
           </div>
         </div>
+        
         <div class="shipping">
           <div class="shipping1">
             <div class="shipping2">Cancellation</div>

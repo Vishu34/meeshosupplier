@@ -44,7 +44,7 @@ const Growbuss = () => {
         </div>
       </div> */}
 
-      <div className="container-fluid">
+      <div className="container ">
       <div className="row">
          <div className="col-md-3 d-none d-md-block">
         <div className="regaccontent">

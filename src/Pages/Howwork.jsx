@@ -19,9 +19,10 @@ const Howwork = () => {
 />
       
 
-      <div class="works my-3">Become a seller on Meesho in simple steps</div>
-      <div class="worksprod1">
-        <div class="account">
+         <div class="works my-3">Become a seller on Meesho in simple steps</div>
+    <div className="container-fluid egcolor">
+      <div class="worksprod1 container ">
+        <div class="account ">
           <div class="account1 ">Sign up for free</div>
           <div class="account2">
             Register as a Meesho Seller. All you need is an active bank account
@@ -56,7 +57,8 @@ const Howwork = () => {
           <div class="account3 rounded-circle">4</div>
         </div>
       </div>
-
+      </div>
+<div className="container">
       <div class="regaccount">
         <div class="regaccontent">
           <div class="regacc1">register your account</div>
@@ -135,7 +137,7 @@ const Howwork = () => {
               class="usecontentimg"
             />
             <div class="usecontent1">
-              {" "}
+             
               learn how to use meesho supplier panel?
             </div>
           </div>
@@ -202,7 +204,7 @@ const Howwork = () => {
             more customers, you can:
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>list more catalogs
           </div>
           <div class="regcontent1">
@@ -211,7 +213,7 @@ const Howwork = () => {
             orders.
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>set the right price
           </div>
           <div class="regcontent1">
@@ -221,7 +223,7 @@ const Howwork = () => {
             appealing than the competitive brands.
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>use price tool
           </div>
           <div class="regcontent1">
@@ -230,7 +232,7 @@ const Howwork = () => {
             other sellers.
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>right trend
           </div>
           <div class="regcontent1">
@@ -238,7 +240,7 @@ const Howwork = () => {
             trending products to get more orders.
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>Opt for Next Day Dispatch (NDD) Program
           </div>
           <div class="regcontent1">
@@ -292,7 +294,7 @@ const Howwork = () => {
             </div>
           </div>
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>Opt for Next Day Dispatch (NDD) Program
           </div>
 
@@ -312,7 +314,7 @@ const Howwork = () => {
           </div>
 
           <div class="reghead3">
-            {" "}
+           
             <span class="dots">.</span>payment for orders
           </div>
 
@@ -329,7 +331,7 @@ const Howwork = () => {
             Meesho Supplier Panel.
           </div>
         </div>
-      </div>
+      </div></div>
       <Popular/>
       <Footer/>
     </>

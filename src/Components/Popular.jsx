@@ -3,7 +3,8 @@ return(
     <>
         
 
-        <div className="container parent">
+        <div className="container-fluid parent margin-auto">
+        <div className="container my-3">
           <div className="row">
             <div className="col">
               <div className="mainpopular">
@@ -26,7 +27,7 @@ return(
             </div>
           </div>
         </div>
-      
+        </div>
 
     </>
 )

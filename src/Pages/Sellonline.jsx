@@ -16,9 +16,9 @@ const Sellonline = () => {
     imgsrc="https://supplier.meesho.com/images/Desktop_Pic.png"
 
 />
-<div className="container-fluid">
+<div className="container">
       <div className=" row mt-5">
-        <div className="whysell my-2">Why Sell On Meesho?</div>
+        <div className="whysell my-3">Why Sell On Meesho?</div>
 
         <div className="col-md-3">
           <div className="nopls ">
@@ -62,13 +62,13 @@ const Sellonline = () => {
         </div>
       </div></div>
 
-      <div className="mees my-3 mt-4">
+      <div className="mees my-3 mt-5">
         <div className="expsup">Why suppliers sell on Meesho?</div>
         <div className="expsup1">
           6L+ Sellers sell online products online on Meesho
         </div>
 
-      <div className="container-fluid mx-2">
+      <div className="container my-3">
         <div className="mancontent row">
           <div className=" col-md-4">
             <img
@@ -130,9 +130,9 @@ const Sellonline = () => {
         </div>
       </div></div>
 
-     <div className="container-fluid mx-2">
+     <div className="container">
       <div className="">
-        <div className="sellprdct">how sell product online on meesho?</div>
+        <div className="sellprdct my-3">how sell product online on meesho?</div>
         <div className="imgwithcontent">
           <div className="imgcontent">
             Register as a Meesho Seller
@@ -215,10 +215,10 @@ const Sellonline = () => {
         </div>
       </div></div>
 
-<div className="container-fluid">
+<div className="container">
       <div className="mess">
-        <div className="expsup">Learn how to sell on Meesho</div>
-        <div className="mancontent row">
+        <div className="expsup my-3">Learn how to sell on Meesho</div>
+        <div className="mancontent row ">
           <div className="col-md-4">
             <img
               src="https://supplier.meesho.com/images/learn-1.jpg"
@@ -278,10 +278,12 @@ const Sellonline = () => {
           </div>
         </div>
       </div></div>
-   <div className="container-fluid egcolor">
-      <div className="grow row">
+
+   <div className="container-fluid egcolor my-3">
+       <div className="container">
+      <div className="grow row ">
         <div className="growcontnt col-md-6">
-          <div className="growcontent">
+          <div className="growcontent my-3">
             How to Grow Your Online Selling Business on Meesho?
           </div>
           <div className="growcontent1">
@@ -348,7 +350,7 @@ const Sellonline = () => {
               detailed insights into why customers are returning your products.
             </div>
           </div>
-        </div></div></div></div></div>
+        </div></div></div></div></div></div>
       </div>
 
       

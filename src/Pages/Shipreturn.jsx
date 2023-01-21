@@ -49,30 +49,33 @@ const Shipreturn = () => {
           </div>
         </div>
       </div> */}
-      <div className="paycycle">
-        <div className="paycycle1 ">
+    <div className="container-fluid egcolor">
+      <div className="container my-3">
+        <div className="row">
+        <div className="paycycle1 col-md-6">
           <div className="paycontent">Deliver products across India</div>
           <div className="paycontent1">
             Meesho ensures quick and hassle-free delivery of all your products
             across India.
           </div>
         </div>
-        <div className="pcycle">
+        <div className="pcycle col-md-2">
           <img src="https://supplier.meesho.com/images/icon-19.svg" alt="img" />
           <div className="pcontent">Lowest Shipping Charges</div>
         </div>
-        <div className="pcycle">
+        <div className="pcycle col-md-2">
           <img src="https://supplier.meesho.com/images/icon-20.svg" alt="img" />
           <div className="pcontent">28000+ Pincode Served</div>
         </div>
-        <div className="pcycle">
+        <div className="pcycle col-md-2">
           <img src="https://supplier.meesho.com/images/icon-15.svg" alt="img" />
           <div className="pcontent">0% Commission</div>
         </div>
-      </div>
+        </div>
+      </div></div>
 
       
-<div className="container-fluid">
+<div className="container">
       <div className="row">
         <div className="col-md-3 d-none d-md-block">
         <div className="regaccount">
@@ -353,25 +356,30 @@ const Shipreturn = () => {
           </div>
         
       </div></div></div></div>
-
-      <div className="meeshosuply">
-        <div className="growcontent">
-          Meesho Supplier Support Available 24/7
-        </div>
+<div className="container-fluid egcolor">
+      <div className=" container">
+        <div className="row ">
+          <div className="col-md-6 my-3">
+          <div className="growcontent">
+          Meesho Supplier Support Available 24/7</div>
         <div className="suplycontent">
-          <div className="suplycontent">
-            Meesho supplier support is available to solve all your doubts and
-            issues before and after you start your online selling business.
-          </div>
-          <div className="mailimgcontent">
+              <div className="suplycontent">
+                Meesho supplier support is available to solve all your doubts and
+                issues before and after you start your online selling business.
+              </div> 
+          </div></div>
+          <div className="col-md-6 my-3">
+          
             <img src="https://supplier.meesho.com/images/email.svg" alt="img" />
             <div className="suplycontent">
-              You can reach out to{" "}
+              You can reach out to
               <div className="suplycontent">sell@meesho.com</div>
-            </div>
+
+          
           </div>
         </div>
-      </div>
+        </div>
+      </div></div>
 <Sellproduct/>
 
       <button

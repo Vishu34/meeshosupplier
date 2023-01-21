@@ -1,8 +1,9 @@
 const Sellproduct=()=>{
     return(
         <>
-            <div className="container-fluid">
-            <div class="meeshosuply row">
+            <div className="container-fluid egcolor">
+            <div className="container my-4">
+            <div class=" row my-3">
             <div className="col-md-6">
             <div class="growcontent">
           Sell Products Online at 0% Commission on Meesho
@@ -19,9 +20,11 @@ const Sellproduct=()=>{
       </div>
           </div>
             </div>
+            </div>
             
 
       <div className="container-fluid parent">
+         <div className="container my-3">
         <div className=" row">
           <div className=" col-md-4 ">
             <div className="meeshoname mx-1">meesho</div>
@@ -57,6 +60,7 @@ const Sellproduct=()=>{
         <div className="footer1">
           © 2015-22 Meesho Inc. All Rights Reserved.
         </div>
+      </div>
       </div>
         </>
     )

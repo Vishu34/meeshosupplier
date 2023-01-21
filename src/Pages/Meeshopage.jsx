@@ -11,7 +11,8 @@ const Meeshopage = () => {
     <>
       <Navbar />
    
-      <div className="container-fluid egcolor">
+      <div className="container-fluid egcolor ">
+      <div className="container">
         <div className="row">
           <div className="col-md-6 ">
             <div className=" fw-bold aside">
@@ -45,9 +46,9 @@ const Meeshopage = () => {
             </div>
           </div>
         </div>
-      
+      </div>
 
-      <div className="container-fluid ">
+      <div className="container ">
         <div className="row mt-5">
           <div className="col-md-3  "> <div className="nopls ">
 
@@ -74,6 +75,7 @@ const Meeshopage = () => {
       </div>
 
       <div className="container-fluid my-3 parent">
+          <div className="container my-3">
         <div className="row">
           <div className="col-md-6 ">
             <div className="supliercontent">Why Suppliers Love Meesho</div>
@@ -89,7 +91,7 @@ const Meeshopage = () => {
                 src="https://supplier.meesho.com/images/icon-10.svg"
                 alt="logo"
               />
-              <div className="">
+              <div className="my-2">
                 <div className="comfees">0% Commission Fee</div>
                 <div className="comfees1">
                   Suppliers selling on Meesho keep 100% of their profit by not
@@ -102,7 +104,7 @@ const Meeshopage = () => {
                 src="https://supplier.meesho.com/images/icon-16.svg"
                 alt="logo"
               />
-              <div className="">
+              <div className="my-2">
                 <div className="comfees">0 Penalty Charges</div>
                 <div className="comfees1">
                   Sell online without the fear of order cancellation charges
@@ -115,7 +117,7 @@ const Meeshopage = () => {
                 src="https://supplier.meesho.com/images/icon-11.svg"
                 alt="logo"
               />
-              <div className="">
+              <div className="my-2">
                 <div className="comfees">Growth for Every Supplier</div>
                 <div className="comfees1">
                   From small to large and unbranded to branded, all suppliers
@@ -128,7 +130,7 @@ const Meeshopage = () => {
                 src="https://supplier.meesho.com/images/icon-12.svg"
                 alt="logo"
               />
-              <div className="">
+              <div className="my-2">
                 <div className="comfees">Ease of Doing Business</div>
                 <div className="comfees1">
                   Easy Product Listing Lowest Cost Shipping
@@ -139,9 +141,10 @@ const Meeshopage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div></div> </div>
 
         <div className="container-fluid egcolor" >
+         <div className="container">
           <div className=" row my-5">
             <div className="col-md-6">
               <div className="exclusivesup">
@@ -179,8 +182,8 @@ const Meeshopage = () => {
                       catalogs, correct quality check errors and more
                     </div>
                   </div>
-                </div>
-              </div>
+                </div></div>
+             
 
               <div className="row">
                 <div className="col-md-6">
@@ -217,7 +220,9 @@ const Meeshopage = () => {
         </div>
       </div>
 
-      <div className="expsup">Experiences suppliers love to talk about</div>
+
+   <div className="container">
+      <div className="expsup my-3">Experiences suppliers love to talk about</div>
 
       <div className="mancontent mx-5 row">
         <div className=" col-md-4 rounded ">
@@ -278,9 +283,11 @@ const Meeshopage = () => {
           </div>
         </div>
       </div>
+      </div>
 
-      <div className="works">How it works</div>
+      <div className="works my-3">How it works</div>
       <div className="worksprod container-fluid ">
+        <div className="container my-3">
         <div className="row ">
           <div className="account col-sm-12 col-md-2  ">
             <div className="account1 ">Create Account</div>
@@ -322,9 +329,11 @@ const Meeshopage = () => {
             <div className="account3 rounded-circle ">5</div>
           </div>
         </div>
+        </div>
       </div>
 
-      <div className="containerj-fluid mx-2  parent ">
+      <div className="container-fluid mx-2  parent ">
+         <div className="container my-3">
         <div className="row mx-1 ">
           <div className="meeshocontent col-md-6">
             <div className="meeshocnt">
@@ -356,11 +365,13 @@ const Meeshopage = () => {
             </div>
           </div>
         </div>
+        </div></div>
 
         <div className="container-fluid my-4 egcolor">
+          <div className="container my-5">
           <div className="row">
             <div className="col-md-6">
-              <div className="growcontent">grow your business with meesho</div>
+              <div className="exclusivesup">Grow your business with meesho</div>
             </div>
             <div className="maincost col-md-6">
               <div className="row">
@@ -418,8 +429,9 @@ const Meeshopage = () => {
                   top of your business.</div>
               </div>
             </div>
-          </div></div>
+          </div>
         </div>
+      </div>
       </div>
       <Popular/>
       <Footer/>
