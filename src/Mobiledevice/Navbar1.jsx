@@ -25,7 +25,9 @@ const Navbar = () => {
     
         <div className="d-flex align-items-center align-content-center justify-content-start my-2">
           <div className="  " >
+            <NavLink exact to="/startsell" className="">
             <button  className="btn startbtn">start selling</button>
+            </NavLink>
             </div>
 
           {show ? (

@@ -124,6 +124,21 @@ height:380px;
   font-size: 25px;
   font-weight: 700;
 }
+.meeshonavbar1{
+  font-weight:500;
+  color:black;
+  padding:8px;
+  margin:10px;
+  background-color: #f9c3df;
+  font-size: 20px;
+}
+.meeshonavbar{
+  padding:8px;
+  margin:10px;
+  font-weight:500;
+  color:black;
+  font-size: 20px;
+}
 .meesho{
   font-family: 'Sono', sans-serif;
   color:#f43397;;

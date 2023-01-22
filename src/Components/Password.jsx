@@ -58,7 +58,8 @@ const Password = () => {
               settype("text");
             }}
           >
-            <FiEye />
+          <FiEyeOff />
+           
           </span>
         ) : (
           <span
@@ -67,9 +68,10 @@ const Password = () => {
               settype("password");
             }}
           >
-          <FiEyeOff />
+           <FiEye />
             
           </span>
+          
         )}
 
         <main className="bg-white">

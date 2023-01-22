@@ -6,23 +6,25 @@ const Navbar1child=()=>{
 
   return (
     <>
-    <div className="d-flex flex-column align-items-center mobilebtn1 ">
-    <NavLink exact to="/sellonline" className=" meesho1 my-2">
+    <div className="d-flex flex-column align-items- mobilebtn1 ">
+    <NavLink exact to="/sellonline" className="   text-dark meeshonavbar1 my-2">
           Sell online
         </NavLink>
-        <NavLink exact to="/howtowork" className=" meesho1 my-2">
+        <NavLink exact to="/howtowork" className="   text-dark meeshonavbar my-2">
           How its work
         </NavLink>
-        <NavLink exact to="/price" className=" meesho1 my-2">
+        <NavLink exact to="/price" className="   text-dark meeshonavbar my-2">
           Pricing & communication
         </NavLink>
-        <NavLink exact  to="/shipreturn" className=" meesho1 my-2">
+        <NavLink exact  to="/shipreturn" className="   text-dark meeshonavbar my-2">
           Shipping & return
         </NavLink>
-        <NavLink exact to="/growbusiness" className=" meesho1 my-2 ">
+        <NavLink exact to="/growbusiness" className="   text-dark meeshonavbar my-2 ">
           Grow & business
         </NavLink>
-
+        <NavLink exact to="/loginpage" className="   text-dark meeshonavbar my-2 ">
+          Login
+        </NavLink>
         
         </div>
         

@@ -22,10 +22,14 @@ import { BsBarChartFill, BsXLg } from "react-icons/bs";
 
         <div className="d-flex align-items-center ">
           <div className="btn1 d-none d-md-block">
+          <NavLink exact to="/loginpage" className="">
             <button id="btn1">login</button>
+            </NavLink>
           </div>
           <div className="btn1 d-none d-md-block">
-            <button id="btn2">start selling</button>
+          <NavLink exact to="/startsell" className="">
+            <button  id="btn2" className="btn2 ">start selling</button>
+            </NavLink>
           </div>
           
           {show ? (
@@ -47,20 +51,20 @@ import { BsBarChartFill, BsXLg } from "react-icons/bs";
       </div>
       {
             show ? (
-              <div className="d-flex flex-column align-items-center mobilebtn1">
-              <NavLink exact to="/sellonline" className="mx-2 meesho1">
+              <div className="d-flex flex-column  mobilebtn1">
+              <NavLink exact to="/sellonline" className="mx-5 meeshonavbar">
           Sell online
         </NavLink>
-        <NavLink exact to="/howtowork" className="mx-2 meesho1">
+        <NavLink exact to="/howtowork" className="mx-5 meeshonavbar">
           How its work
         </NavLink>
-        <NavLink exact to="/price" className="mx-2 meesho1">
+        <NavLink exact to="/price" className="mx-5 meeshonavbar">
           Pricing & communication
         </NavLink>
-        <NavLink exact to="/shipreturn" className="mx-2 meesho1">
+        <NavLink exact to="/shipreturn" className="mx-5 meeshonavbar">
           Shipping & return
         </NavLink>
-        <NavLink exact to="/growbusiness" className="mx-2 meesho1 ">
+        <NavLink exact to="/growbusiness" className="mx-5 meeshonavbar ">
           Grow & business
         </NavLink>
         
