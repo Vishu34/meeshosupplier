@@ -58,7 +58,7 @@ const Password = () => {
               settype("text");
             }}
           >
-            <FiEyeOff />
+            <FiEye />
           </span>
         ) : (
           <span
@@ -67,7 +67,8 @@ const Password = () => {
               settype("password");
             }}
           >
-            <FiEye />
+          <FiEyeOff />
+            
           </span>
         )}
 
