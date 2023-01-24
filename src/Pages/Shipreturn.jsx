@@ -11,7 +11,7 @@ const Shipreturn = () => {
   };
   return (
     <>
-      <Navbar />
+      
       <Imagecontent
     head=" Meesho Shipping, Delivery & Returns Policy"
     content1="Get your products delivered to crores of customers with the"

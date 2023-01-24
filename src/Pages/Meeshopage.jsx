@@ -9,9 +9,9 @@ import Popular from "../Components/Popular";
 const Meeshopage = () => {
   return (
     <>
-      <Navbar />
+      
    
-      <div className="container-fluid egcolor ">
+      <div className="container-fluid parent ">
       <div className="container">
         <div className="row">
           <div className="col-md-6 ">

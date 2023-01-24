@@ -7,7 +7,7 @@ import Popular from "../Components/Popular";
 const Sellonline = () => {
   return (
     <>
-      <Navbar />
+     
       <Imagecontent
     head="Online Selling made Simple"
     content1="Become a Meesho seller and start"

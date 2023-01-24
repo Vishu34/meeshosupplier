@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar3 = () => {
   return (
     <>
-      <div className="d-flex bg-white justify-content-between  align-items-center align-content-center navbar-center  Navbar w-100 fixed-top ">
+      <div className="d-flex bg-white justify-content-between  align-items-center align-content-center navbar-center  Navbar w-100  ">
         <div className=" d-xl-block d-none my-4">
           <NavLink exact to="/" className="meeshonav">
             <img src="https://supplier.meesho.com/images/logo.svg" />

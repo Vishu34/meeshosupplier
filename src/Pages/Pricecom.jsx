@@ -8,7 +8,7 @@ const Pricecom = () => {
   const{id,name}=useParams();
   return (
     <>
-      <Navbar />
+     
       <Imagecontent
     head="Pricing & Commission"
     content1="Meesho charges"

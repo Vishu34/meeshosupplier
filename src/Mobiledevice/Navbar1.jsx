@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="d-md-none d-block Navbar fixed-top">
+    <div className="d-md-none d-block Navbar ">
       <div className="bg-white d-flex justify-content-between align-items-center align-content-center  w-100  ">
         <div className="my-2 ">
           <NavLink exact to="/" className="meesho">

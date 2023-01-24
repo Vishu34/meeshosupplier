@@ -7,8 +7,8 @@ import Popular from "../Components/Popular";
 const Howwork = () => {
   return (
     <>
-      <Navbar />
       <Imagecontent 
+     
     head="How to Sell on Meesho"
     content1="Become a Meesho seller and join"
     content2="6 lakh+ sellers"

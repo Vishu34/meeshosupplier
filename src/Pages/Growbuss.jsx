@@ -7,8 +7,10 @@ import Footer from "../Components/Footer";
 const Growbuss = () => {
   return (
     <>
-      <Navbar />
+      
+      
       <Imagecontent 
+      
     head="Grow Your Business with Meesho"
     content1="Sell your products online and reach"
     content2="crores of customers"
