@@ -14,22 +14,22 @@ import { BsBarChartFill, BsXLg } from "react-icons/bs";
     <>
       <div className=" d-md-block d-xl-none d-none  w-100 bg-white Navbar ">
       <div className="container d-flex justify-content-between align-items-center align-content-center" data-aos="fade-left">
-      <NavLink exact to="/" className="mx-2 fw-bold my-3 mx-2 meesho">
-      <img src="https://supplier.meesho.com/images/logo.svg" />
-        </NavLink>
+      <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/" className="mx-2 fw-bold my-3 mx-2 meesho">
+      <img src="https://supplier.meesho.com/images/logo.svg" alt="image"/>
+        </NavLink> </li>
           
           
 
         <div className="d-flex align-items-center ">
           <div className="btn1 d-none d-md-block">
-          <NavLink exact to="/loginpage" className="">
+          <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/loginpage" className="">
             <button id="btn1">login</button>
-            </NavLink>
+            </NavLink> </li>
           </div>
           <div className="btn1 d-none d-md-block">
-          <NavLink exact to="/startsell" className="">
+          <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/startsell" className="">
             <button  id="btn2" className="btn2 ">start selling</button>
-            </NavLink>
+            </NavLink> </li>
           </div>
           
           {show ? (
@@ -51,24 +51,24 @@ import { BsBarChartFill, BsXLg } from "react-icons/bs";
       </div>
       {
             show ? (
-              <div className="d-flex flex-column  mobilebtn1">
-              <NavLink exact to="/sellonline" className="mx-5 meeshonavbar">
+              <ul className="d-flex flex-column  mobilebtn1 ">
+              <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/sellonline">
           Sell online
-        </NavLink>
-        <NavLink exact to="/howtowork" className="mx-5 meeshonavbar">
+        </NavLink> </li>
+        <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/howtowork">
           How its work
-        </NavLink>
-        <NavLink exact to="/price" className="mx-5 meeshonavbar">
+        </NavLink> </li>
+        <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/price">
           Pricing & communication
-        </NavLink>
-        <NavLink exact to="/shipreturn" className="mx-5 meeshonavbar">
+        </NavLink> </li>
+        <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/shipreturn">
           Shipping & return
-        </NavLink>
-        <NavLink exact to="/growbusiness" className="mx-5 meeshonavbar ">
+        </NavLink> </li>
+        <li className="mx-5 meeshonavbar" onClick={()=>setshow(false)}><NavLink exact to="/growbusiness">
           Grow & business
-        </NavLink>
+        </NavLink> </li>
         
-              </div>
+              </ul>
             ):null
           }
     </>

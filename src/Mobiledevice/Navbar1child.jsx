@@ -2,29 +2,35 @@ import React, { useState } from "react";
 import { NavLink,Link } from "react-router-dom";
 import { BsBarChartFill, BsBorder, BsXLg } from "react-icons/bs";
 
-const Navbar1child=()=>{
+const Navbar1child=({setshow})=>{
 
   return (
     <>
     <div className="d-flex flex-column align-items- mobilebtn1 ">
-    <NavLink exact to="/sellonline" className="   text-dark meeshonavbar1 my-2">
+    <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar1 my-2"><NavLink  to="/sellonline" className=" " 
+   >
           Sell online
-        </NavLink>
-        <NavLink exact to="/howtowork" className="   text-dark meeshonavbar my-2">
+        </NavLink> </li>
+        <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar my-2"><NavLink  to="/howtowork" className=" " 
+       >
           How its work
-        </NavLink>
-        <NavLink exact to="/price" className="   text-dark meeshonavbar my-2">
+        </NavLink> </li>
+        <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar my-2"><NavLink  to="/price" className=" " 
+       >
           Pricing & communication
-        </NavLink>
-        <NavLink exact  to="/shipreturn" className="   text-dark meeshonavbar my-2">
+        </NavLink> </li>
+        <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar my-2"><NavLink   to="/shipreturn" className=" " 
+       >
           Shipping & return
-        </NavLink>
-        <NavLink exact to="/growbusiness" className="   text-dark meeshonavbar my-2 ">
+        </NavLink> </li>
+        <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar my-2"><NavLink  to="/growbusiness" className="  " 
+       >
           Grow & business
-        </NavLink>
-        <NavLink exact to="/loginpage" className="   text-dark meeshonavbar my-2 ">
+        </NavLink> </li>
+        <li  onClick={()=>setshow(false)} className="text-dark meeshonavbar my-2"><NavLink  to="/loginpage" className="  " 
+       >
           Login
-        </NavLink>
+        </NavLink> </li>
         
         </div>
         

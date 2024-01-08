@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="bg-white d-flex justify-content-between align-items-center align-content-center  w-100  ">
         <div className="my-2 ">
           <NavLink exact to="/" className="meesho">
-          <img src="https://supplier.meesho.com/images/logo.svg" />
+          <img src="https://supplier.meesho.com/images/logo.svg" alt="iamge"/>
           </NavLink>
         </div>
         
@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
       </div>
       {
-        show ? <Navbar1child/>:null
+        show ? <Navbar1child setshow={setshow}/>:null
       }
     </>
   );

@@ -131,6 +131,7 @@ height:380px;
   margin:10px;
   background-color: #f9c3df;
   font-size: 20px;
+  list-style-type: none;
 }
 .meeshonavbar{
   padding:8px;
@@ -138,6 +139,7 @@ height:380px;
   font-weight:500;
   color:black;
   font-size: 20px;
+  list-style-type: none;
 }
 .meesho{
   font-family: 'Sono', sans-serif;
@@ -542,7 +544,7 @@ cursor: pointer;
               width: 100%;
               background-color: white;
               position:fixed;
-              top:55px;
+              top:75px;
              }
             .growcontent{
              
